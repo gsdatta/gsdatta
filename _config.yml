@@ -1,0 +1,17 @@
+# Site settings
+title: Ganesh Datta
+header-img: img/avila-beach-pier.jpg
+email: me@ganeshdatta.com
+description: "Write your site description here. It will be used as your sites meta description as well!"
+baseurl: ""
+url: "http://ganeshdatta.com"
+twitter_username: gsdatta
+github_username:  gsdatta
+facebook_username:  gd.techie
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
