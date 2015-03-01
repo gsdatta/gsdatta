@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Set up Waterline ORM with ExpressJS"
-subtitle:   "Easily use Waterline in ExpressJS in a modular, organized manner."
+subtitle:   "Easily use an ORM for relational db's in ExpressJS with Waterline."
 date:       2015-03-1 8:59:00
 author:     "Ganesh Datta"
 header-img:     "img/waterline.png"
