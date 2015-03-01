@@ -30,7 +30,7 @@ myapp
 
 Setting up Waterline with Express is quite simple if you have all the models in the same file. However, keeping things modular makes it a little more complicated. First off is my models folder. In my models folder, I have an index.js file, along with a file for each individual model. For example, `models/User.js` would look like:
 
-~~~ javascript
+{% highlight javascript %}
 var Waterline = require('Waterline');
 var bcrypt = require('bcrypt');
 
@@ -86,8 +86,7 @@ var User = Waterline.Collection.extend({
 });
 
 module.exports = User;
-~~~
-
+{% endhighlight %}
 Notice the connection field in the model. This will be defined in the index.js file. Speaking of which, let's move on to that file now!
 
 #index.js - Why?
@@ -95,7 +94,7 @@ Waterline needs to be told about all models so that it can create the correct ta
 
 Additionally, I use it to set up the actual connection to the database (though this should probably be in an external config file).
 
-~~~
+{% highlight javascript %}
 var postgresAdapter = require('sails-postgresql');
 var Waterline = require('waterline');
 
@@ -130,7 +129,7 @@ fs
   });
 
 module.exports = {waterline: orm, config: config};
-~~~
+{% endhighlight %}
 
 There are two things going on here. First, we create a waterline object, which will be used to access models throughout the application.
 
