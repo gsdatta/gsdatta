@@ -4,6 +4,7 @@ title:      "Set up Waterline ORM with ExpressJS"
 subtitle:   "Easily use Waterline in ExpressJS in a modular, organized manner."
 date:       2015-03-1 8:59:00
 author:     "Ganesh Datta"
+header-img:     "img/waterline.png"
 comments:   true
 ---
 
