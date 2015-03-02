@@ -5,6 +5,8 @@ subtitle:   "Easily set up an ORM for relational databases in ExpressJS."
 date:       2015-03-1 8:59:00
 author:     "Ganesh Datta"
 header-img:     "img/waterline.png"
+description: "Setting up the Waterline ORM in express is easy if you put everything in one file, but I like to keep my apps organized. Here's how I setup Waterline in a clean, readable manner for ExpressJS."
+ogimage: "img/waterline.png"
 comments:   true
 ---
 

@@ -6,6 +6,9 @@
     <meta name="description" content="{{ site.description }}">
 
     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    {% if page.title %}<meta property="og:title"           content="{{ page.title }}" /> {% endif %}
+    {% if page.description %}<meta property="og:description"           content="{{ page.description }}" /> {% endif %}
+    {% if page.ogimage %}<meta property="og:image"           content="{{ page.ogimage }}" /> {% endif %}
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
