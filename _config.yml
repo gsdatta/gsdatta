@@ -7,7 +7,8 @@ baseurl: ""
 url: "http://ganeshdatta.com"
 twitter_username: gsdatta
 github_username:  gsdatta
-facebook_username:  gd.techie
+facebook_username: ganeshsdatta
+linkedin_username: gsdatta
 
 # Build settings
 markdown: kramdown
